@@ -1,0 +1,14 @@
+Clio 5 auto 1 ass
+Clio 5 man 2 des
+hyundai accent  auto 3 ass
+  dacia Sandro  man 4 des 
+  dacia sandero streetway man 1 des
+Dacia logan man 2 des 
+Dacia logy man des 
+kia sportage auto 1 des 
+Toyota chr hybridauto hybryd 
+Dacia docker man 2 des
+citroen c3 man des
+Fiat 500 auto ass
+Rang sport auto 1  des
+volkswagen t roc auto 1 des  
