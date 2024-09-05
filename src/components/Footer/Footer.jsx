@@ -7,17 +7,17 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "À Propos",
   },
 
   {
     path: "#",
-    display: "Privacy Policy",
+    display: "Politique de Confidentialité",
   },
 
   {
     path: "/cars",
-    display: "Car Listing",
+    display: "Liste de Voitures",
   },
   {
     path: "/blogs",
@@ -43,22 +43,19 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Rent Car <br /> Service
+                    Location de Voitures <br /> Marrakech
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              Nous proposons des services de location de voitures fiables et de qualité à Marrakech. Que ce soit pour des vacances ou des affaires, nous sommes là pour vous offrir le meilleur service possible.
             </p>
           </Col>
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Quick Links</h5>
+              <h5 className="footer__link-title">Liens Rapides</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -71,20 +68,20 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <h5 className="footer__link-title mb-4">Siège Social</h5>
+              <p className="office__info">123 Rue de la Kasbah, Marrakech, Maroc</p>
+              <p className="office__info">Téléphone: +212612345678</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: exemple@gmail.com</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">Horaires: 10h - 19h</p>
             </div>
           </Col>
 
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
               <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Subscribe our newsletter</p>
+              <p className="section__description">Abonnez-vous à notre newsletter</p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
@@ -97,8 +94,8 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                <i class="ri-copyright-line"></i>Copyright {year}, Développé par
+                Makoudi Khalid . Tous droits réservés.
               </p>
             </div>
           </Col>
